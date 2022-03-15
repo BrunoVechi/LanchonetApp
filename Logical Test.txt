@@ -1,0 +1,34 @@
+_______________________________________
+
+using System;
+
+namespace Logic_Test
+{
+    class Double
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter any number:");
+            int x = (int)Console.Read();
+            Console.WriteLine("Twice the number is:" + Convert.ToString(x *2));          
+
+        }
+    }
+}
+
+__________________________________________
+
+using System;
+
+namespace Logic_Test
+{
+    class Months
+    {
+        static void Main(string[] args)
+        {           
+            Console.WriteLine("Assuming that all months have 30 days, enter the number of months to be calculated:");
+            int y = (int)Console.Read();
+            Console.WriteLine("The number of days is:" + Convert.ToString(y * 30));
+         
+        }
+    }
